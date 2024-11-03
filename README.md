@@ -9,15 +9,15 @@ This project implements real-time object detection using the YOLO (You Only Look
 
 ## Installation
 
-- 1. **Clone the repository**:
+-  **Clone the repository**:
    - git clone https://github.com/Saimanoj2325/yoloobjdetection.git
    - cd yoloobjdetection
-- 2. **Install Dependencies**:
-    Make sure you have Python 3.7+ installed, then install the required packages:
-    pip install -r requirements.txt
-- 3.**Configure the Dataset**:
-   Edit the data.yaml file to define your dataset paths and class names.
-   This file should include:
+-  **Install Dependencies**:
+   - Make sure you have Python 3.7+ installed, then install the required packages:
+   - pip install -r requirements.txt
+-  **Configure the Dataset**:
+  - Edit the data.yaml file to define your dataset paths and class names.
+  - This file should include:
     - 1.train and val paths for training and validation datasets.
     - 2.names field listing the class names for your detection mode
 # Data Preprocessing
