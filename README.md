@@ -16,10 +16,10 @@ This project implements real-time object detection using the YOLO (You Only Look
    - Make sure you have Python 3.7+ installed, then install the required packages:
    - pip install -r requirements.txt
 -  **Configure the Dataset**:
-  - Edit the data.yaml file to define your dataset paths and class names.
-  - This file should include:
-    - 1.train and val paths for training and validation datasets.
-    - 2.names field listing the class names for your detection mode
+   - Edit the data.yaml file to define your dataset paths and class names.
+   - This file should include:
+     - 1.train and val paths for training and validation datasets.
+     - 2.names field listing the class names for your detection mode
 # Data Preprocessing
 The Yolov5Datapreprocessing.ipynb notebook guides you through preparing your dataset, resizing images, and formatting annotations for YOLOv5 compatibility.
 # Project Structure
